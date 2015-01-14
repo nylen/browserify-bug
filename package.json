@@ -1,0 +1,23 @@
+{
+    "name"        : "browserify-bug",
+    "author"      : "James Nylen <jnylen@gmail.com>",
+    "description" : "Reproduce browserify bug involving circular dependencies",
+    "version"     : "0.0.1",
+    "repository"  : {
+        "type" : "git",
+        "url"  : "https://github.com/nylen/browserify-bug"
+    },
+    "bugs" : {
+        "url" : "https://github.com/nylen/browserify-bug/issues"
+    },
+    "license"  : "MIT",
+    "keywords" : [
+        "browserify",
+        "bug",
+        "request",
+        "circular"
+    ],
+    "dependencies" : {
+        "browserify" : "~8.1.0"
+    }
+}
